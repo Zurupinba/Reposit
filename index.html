@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="icon" type="image/png" href="ped1.png">
+<title>PEDIDOS</title>
+<style>
+
+.conteudo {
+width:100%;
+height:480px;
+box-sizing: border-box;
+overflow: scroll;
+border: 1px solid blue;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  background-color: cornflowerblue;  
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  float: left;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  text-align:center;
+}
+
+.ultd {
+  padding: 10px;
+  text-align:center;
+  color: white;
+  text-decoration: none;
+}
+
+.corpo {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: blue;
+  background-color: rgb(141, 141, 173);
+}
+
+.ultd img {
+mix-blend-mode: multiply;
+}
+
+</style>
+</head>
+ 
+<body>
+
+<center>
+<table width=100% border=1>
+<td bgcolor="lightblue">
+<font size=6 face="Verdana" color="blue" style="text-shadow: 2px 2px 4px white">
+<b>Banco de Dados de Pedidos</b>
+</font>
+</td>
+<td width="40%">
+<font size=2 face="Verdana" style="text-shadow: 2px 2px 4px black">
+<ul class="ultd">
+<a href="framecategoria.html" target="quadro">
+  <li><img src="categoria.png" width=50 height=50>Categoria</li>
+</a>
+<a href="undmedida.php" target="quadro">
+  <li><img src="kg.png" width=50 height=50>Unidade</li>
+</a>
+<a href="produtos.php" target="quadro">
+  <li><img src="produto.png" width=50 height=50>Produto</li>
+</a>
+<a href="cliente.php" target="quadro">
+  <li><img src="cliente.png" width=50 height=50>Cliente</li>
+</a>
+<a href="pedido.php" target="quadro">
+  <li><img src="ped4.png" width=50 height=50>Pedido</li>
+</a>
+</ul>
+</td>
+</tr>
+</center>
+</font>
+<tr>
+<td colspan=2>
+
+<iframe class="conteudo" name="quadro" src="framecategoria.html">
+</iframe>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
